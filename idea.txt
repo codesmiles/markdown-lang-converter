@@ -55,3 +55,25 @@ function replaceWordsInHtml(html, words, translatedWords) {
   // Return the modified HTML
   return html;
 }
+
+app.get("/languages", async (req, res) => {
+  const options = {
+    method: "GET",
+    url: process.env.LANGUAGES_URL,
+    headers: {
+      "Accept-Encoding": "application/gzip",
+      "X-RapidAPI-Key": process.env.RAPID_API_KEY,
+      "X-RapidAPI-Host": process.env.HOST_URL,
+    },
+  };
+
+  try {
+    const response = await axios.request(options);
+    res.json({
+      successful: true,
+      data: response.data
+    })
+  } catch (error) {
+    console.error(error);
+  }
+})
