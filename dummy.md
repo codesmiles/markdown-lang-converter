@@ -2,13 +2,7 @@
 
 ## Introduction
 
-Regular exercise plays a crucial role in maintaining overall health and well-being.
-Whether you're a fitness enthusiast or just starting your fitness journey, incorporating
- exercise into your daily routine can have numerous benefits for
-both your physical and mental health.
-In this article, we will explore the importance of regular exercise
- and how it can positively impact
- various aspects of your life.
+Regular exercise plays a crucial role in maintaining overall health and well-being. Whether you're a fitness enthusiast or just starting your fitness journey, incorporating exercise into your daily routine can have numerous benefits for both your physical and mental health. In this article, we will explore the importance of regular exercise and how it can positively impact various aspects of your life.
 
 ## Physical Health Benefits
 
